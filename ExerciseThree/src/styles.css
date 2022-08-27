@@ -1,0 +1,103 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    padding: 30px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    color: grey;
+    background-color: #ffe6e6;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.center {
+    text-align: center;
+}
+
+input#add-note {
+    width: 500px;
+    height: 40px;
+    margin-right: 5px;
+    padding: 8px;
+    color: grey;
+    border-radius: 10px;
+}
+
+.note {
+    padding: 20px;
+    /* border: 1px solid #efefef; */
+    width: 100%;
+    color: rgb(34, 33, 33);
+    font-size: 1.5rem;
+    margin-top: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.23);
+    box-shadow: 0px 0px 24px -12px rgba(0, 0, 0, 0.23);
+    background-color: #fff;;
+}
+
+.myButton {
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: linear-gradient(to bottom, #42ffdc 5%, #3edcaa 100%);
+    background-color: #79bbff;
+    border-radius: 10px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 24px;
+    height: 40px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+    outline: none;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #3edcaa 5%,  #42ffdc 100%);
+    background-color: #378de5;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.css-input:focus {
+    outline: none;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+::placeholder {
+    opacity: 0.5;
+}
+
+.fas {
+    cursor: pointer;
+    color: rgb(85, 85, 85);
+}

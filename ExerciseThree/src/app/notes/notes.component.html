@@ -1,0 +1,11 @@
+<div class="center mt-20">
+    <input type="text" class="css-input" placeholder="Add a note" id="add-note" [(ngModel)]="noteToAdd"> 
+    <button class="myButton" (click)="addNote()">Add</button>
+</div>
+
+<h2 class="center mt-20">The number of notes is {{notes.length}}</h2>
+<div class="mt-20 note-container">
+    <div class="note" *ngFor="let note of notes; index as i">
+        <i class="fas fa-eraser" (click)="deleteNote(i)"></i>&nbsp;{{note}}
+    </div>
+</div>
